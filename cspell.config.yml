@@ -1,0 +1,48 @@
+version: "0.2"
+language: en, es
+files:
+  - /**/*.{tsx,ts,js,jsx,json}
+ignorePaths:
+  - /**/*.cert
+  - package.json
+  - /**/*.config.{js,json,yaml,yml,toml}
+  - /**/*lock.{json,yaml,yml}
+  - /**/*.xml
+  - /**/*.{sass,scss,css}
+  - /**/*.svg
+  - /public/manifest.json
+dictionaries:
+  - companies
+  - softwareTerms
+  - fonts
+  - npm
+  - misc
+words:
+  - apexcharts
+  - CUIL
+  - CUIT
+  - esnext
+  - formik
+  - Formik
+  - fsstat
+  - geoname
+  - groupby
+  - headlessui
+  - heroicons
+  - ipgeo
+  - kibana
+  - latlng
+  - metricbeat
+  - monaco
+  - msapplication
+  - nuqs
+  - Observabilidad
+  - powership
+  - reduxjs
+  - Stratego
+  - tailwindcss
+  - visx
+  - xaxis
+  - Xmark
+  - xsrf
+  - zipcode
